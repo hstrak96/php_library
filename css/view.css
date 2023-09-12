@@ -1,0 +1,50 @@
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    tab-size: 4;
+}
+
+h2 {
+    text-align: left;
+    color: #31c4a8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.img img {
+    width: 98%;
+    padding: 20px;
+}
+
+
+.col-sm {
+    background-color: white;
+}
+
+
+.img {
+    text-align: center;
+}
+
+
+.kontejner {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+.text{
+    padding-right:30px ;
+}
+#content{
+    text-align: justify;
+}
+@media (max-width:750px) {
+
+    .kontejner {
+        position: absolute;
+        left: 5%;
+        right: 5%;
+    }
+}

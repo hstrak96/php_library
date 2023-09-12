@@ -1,0 +1,153 @@
+.container{
+    background-color: aqua;
+}
+body{
+    background-color: whitesmoke;
+}
+.book {
+    /*
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 4px black;
+     */
+
+    background-color: white;
+    height: 150px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.book:hover{
+    /*  border-radius: 10px;
+  */
+    box-shadow: 1px 1px 4px black;
+}
+
+.book img{
+    height: 100%;
+    float: left;
+}
+.box{
+    width: 95%;
+    margin:0 auto;
+}
+.padding_none{
+    padding: 5px;
+}
+.smoler{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background-color: white;
+}
+.book_text{
+    word-wrap: break-word;
+    float: right;
+    height: 100%;
+    width: calc(100% - 110px);
+    max-height: 115px;
+}
+.book_text h6{
+    text-align: left;
+    color: #31c4a8;
+    font-family: 'Roboto', sans-serif;
+}
+.book_text p{
+    margin: 0;
+    color: gray;
+    text-align: left;
+}
+
+
+.book_img{
+    float: left;
+    height: 100%;
+    width: 110px;
+
+
+}
+svg{
+    fill:gray;
+}
+
+
+.footer{
+    position: absolute;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    left:300px;
+    right: 0;
+    margin-top: 25px ;
+    padding-bottom: 25px ;
+}
+.footer ul .page{
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.7s;
+    margin: 0;
+
+}
+.footer ul .page:hover{
+
+    background-color: rgba(128,128,128,0.5);
+    opacity: 0.5;
+
+
+}
+.active{
+    color: white;
+    background-color: #31c4a8;
+}
+.arrow{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: #343a40;
+}
+
+
+/* ----------------------side----------------------------------*/
+
+.sidenav {
+    margin-top: 50px;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: auto;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 300px; /* Same as the width of the sidenav */
+    /* font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

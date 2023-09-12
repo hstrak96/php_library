@@ -1,0 +1,61 @@
+body {
+background-color: #f8f9fc;
+}
+
+.card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/4/2020/04/Old-Book-Stack-1024x683.jpg');
+    background-size: cover;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}
+
+.fa {
+    display: block;
+    padding: 18px;
+    font-size: 33px;
+    width:65px;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
